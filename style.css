@@ -1,0 +1,40 @@
+.drawingBoard{
+    border: solid;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 40rem;
+    width: 40rem;
+    padding: 0;
+}
+.divsCol{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+    border: 0;
+}
+
+.divs{
+    border: 0;
+    width: 100%;
+    padding: 0;
+    height: 100%;
+}
+
+.toolSet{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.drawAndTool{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+}
+header{
+    text-align: center;
+}
+
+/* .divColor:hover{
+    background-color: black;
+} */

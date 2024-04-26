@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch</title>
-    <script src="scripts.js"></script>
+    <script src="scripts.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-
+        <h1>Etch-a-Sketch</h1>
     </header>
-    <section class="drawingBoard" id="drawingBoard">
-
+    <section class="drawAndTool">
+        <section class="toolSet">
+            <input type="color" id="favcolor" value="black">
+            <label for="favcolor">Set brush color</label>
+            <input type="range" name="Size Set" id="sizeBar" min="16" max="100" value="16">
+            <label for="sizeBar">Set Size for Board</label>
+        </section>
+    
+        <section class="drawingBoard" id="drawingBoard">
+    
+        </section>
     </section>
 </body>
+
 </html>
